@@ -1,0 +1,7 @@
+<h3>List students</h3>
+<p>Id sinh viên: {{student.id}}</p>
+<p>Tên sinh viên: {{student.name}}</p>
+<p>Điểm sinh viên:{{student.mark}}</p>
+<p>Hình ảnh sinh viên:</p> <img [src]="student.image" width="100px" height="100px">
+<label>Chấm điểm</label>
+<input type ="number" [(ngMode)]="student.mark">

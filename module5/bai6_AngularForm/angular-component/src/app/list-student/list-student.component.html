@@ -1,0 +1,8 @@
+<h3>List Students</h3>
+<p>Id sinh viên: {{student.id}}</p>
+<p>Tên sinh viên: {{student.name}}</p>
+<p>Điểm sinh viên:{{student.mark}}</p>
+<p>Hình ảnh sinh viên:</p><img [src]="student.image" width="100" height="100">
+<label>Chấm điểm</label>
+<input type="number" (change)="getMark ($event.target.value)">
+
